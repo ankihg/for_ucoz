@@ -1,0 +1,108 @@
+.container {
+    #background-color: #808080;
+}
+
+.jumboSmallText {
+   font-size: 105%;
+   line-height: 200%;
+}
+
+img {
+	max-width:90%;
+	max-height:90%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+p {
+	line-height: 150%;
+}
+
+.catflightleft img {
+	max-width:90%;
+	max-height:90%;
+	display: block;
+	margin-left: auto;
+	margin-right: 0%;
+}
+
+.catflightright img {
+	max-width:90%;
+	max-height:90%;
+	display: block;
+	margin-left: 0%;
+	margin-right: auto;
+}
+
+#tag-filter {
+  font-size: 200%;
+  margin: 5%;
+}
+
+#tag-checklist {
+  font-size: 150%;
+  margin: auto;
+}
+
+#tag-checklist li {
+  display: inline;
+  margin: 10%;
+}
+
+#tag-checklist img {
+  display: inline;
+  width: 10%;
+}
+
+/*select, ul { height: 2%; overflow: scroll; width: 30%; border: 1px solid #000; }*/
+
+.contain-checklist {
+  /*background-image:url("/media/tree3_c.png");*/
+  margin: auto;
+  border:6px
+  solid #ccc;
+  width:95%;
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+h3 {
+  text-align: center;
+}
+
+.contain-checklist img {
+  display: inline;
+  width: 3%;
+}
+
+#contain-education {
+  margin: 2%;
+  border:6px
+  solid #ccc;
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#contain-education img {
+  display: inline;
+  width: 10%;
+}
+
+
+#contain-technical-skills {
+  float: right;
+  margin: 2%;
+  border:6px
+  solid #ccc;
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#contain-technical-skills img {
+  display: inline;
+  width: 10%;
+}

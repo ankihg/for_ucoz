@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="project_display.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Great Grammar Transformer</h1>
+    <p>A program to support grammar transformations</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-8">
+      <a href="img/ggt_img1.png"><img src="img/ggt_img1.png" alt="ggt_img1"></a>
+    </div>
+    <div class="col-sm-4">
+      <h3>Background basics</h3>
+      <p>I developed this project over six months for completion of my undergraduate degree in computer science.
+      It is written in Java using Netbeans IDE and utilizes <a href="https://opennlp.apache.org/">Apache OpenNLP</a> for english language parsing.
+      Web content is parsed from <a href="http://conjugator.reverso.net/conjugation-english.html">Reverso.net</a> and <a href="http://www.thesaurus.com/">Thesaurus.com</a>.
+      </p>
+      <h3>Let's take a ride</h3>
+      <p>The adjacent image displays the main frame, split between an input/output panel (left) and tree display panel (right).
+      The tree display panel displays the <a href="https://en.wikipedia.org/wiki/Parse_tree#Constituency-based_parse_trees">parse tree</a> for the selected sentence and supports grammatical transformations. 
+      A given sentence can be packaged in a variety of formations and subjected to many alterations.
+      Let's explore!
+    </div>
+  </div>
+   &nbsp;
+   
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Constituent alteration</h3>
+      <p>To the right, the above sentence has been transformed to the passive voice, reflected in the reshaped parse tree. </p>
+      
+      	<p> The provided transformations maintain the core semantic relations of the orignal sentence, <a href="http://awinlanguage.blogspot.com.tr/2012/04/deep-structure-vs-surface-structure.html">deep structure</a>, while syntactically packaging the encoded information to varying meanings.  
+			In this case, the passive voice, the meaning is basically identical.
+      	</p>
+      	<p>To perform alterations, the user selects the constituent to transform by clicking its box in the parse tree.
+      		Then, a tabbed pane is revealed, displaying options for transformations.
+      	</p>
+    </div>
+    <div class="col-sm-8">
+        <a href="img/ggt_img2.png"><img src="img/ggt_img2.png" alt="ggt_img2"></a>
+
+    </div>
+  </div>
+  &nbsp;
+  
+  <div class="row">
+  		<div class="col-sm-8">
+  			<a href="img/ggt_img5.png"><img src="img/ggt_img5.png" alt="ggt_img5"></a>
+  			
+  		</div>
+  
+  		<div class="col-sm-4">
+  			<h3>Input/output</h3>
+  			
+  			<p>
+  			The input/output panel consists of an input (above) and output (below) text area. Text from the input text area is divided into sentences by <a href="https://opennlp.apache.org/">Apache OpenNLP</a>'s sentence detector. Each sentence is then processed by <a href="https://opennlp.apache.org/">OpenNLP</a>'s english language parser, forming its corresponding parse tree.
+  			</p>
+  			
+  			<p>
+  			The output text area displays the content from the input text area after manipulation in the tree display.
+  			</p>
+  			
+  		</div>
+  
+  
+  </div>
+  &nbsp;
+  
+  <div class="row">
+  		<div class="col-sm-6">
+  			<h4>Inquire (???) - is it true?</h4>
+  			<a href="img/ggt_img7.png"><img src="img/ggt_img7.png" alt="ggt_img7"></a>
+  		</div>
+  		
+  		<div class="col-sm-6">
+  			<h4>Exclaim (!!) - wow, it's very true!</h4>
+  			<a href="img/ggt_img6.png"><img src="img/ggt_img4.png" alt="ggt_img6"></a>
+  		</div>
+  		
+  
+  </div>
+  
+</div>
+
+</body>
+</html>

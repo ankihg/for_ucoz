@@ -1,0 +1,15 @@
+img {
+	max-width:90%;
+	max-height:90%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto
+}
+
+p {
+	line-height: 150%;
+}
+
+h4 {
+	text-align: center;
+}
