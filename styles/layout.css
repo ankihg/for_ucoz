@@ -1,0 +1,11 @@
+@media (max-width:800px) {
+  #myCanvas {
+    display: none;
+  }
+
+  #tag-checklist {
+    font-size: 100%;
+    margin: 0%;
+  }
+
+}

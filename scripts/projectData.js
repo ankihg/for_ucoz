@@ -56,4 +56,12 @@ var rawData = [
     tags: ['C++', '3D graphics', 'OpenGL'],
     about: ' <p>This functioned as my final project for an undergraduate course in 3D computer graphics. It is written in C++ with OpenGL.In the course, I studied ray tracing, the 3D rendering pipeline, geometric transformations, lighting & shading, and graphics data structures. </p><p>The city is randomly generated and includes architecture, parks, and traffic. Downtown looms in the distance. Explore the city and watch out for car doors!</p>'
   },
+  {
+    name: 'CAT FLIGHT',
+    url: 'http://ankihg.ucoz.com/index/cat_flight/0-21',
+    imgSrc: 'media/cat_flight/img1.png',
+    date:'2013-8-25',
+    tags: ['Objective-C', 'iOS Development'],
+    about: '<p>The <a href="http://www.algebraicthinking.org/">Center for Algebraic Thinking</a> requested an iOS app as a tool for learning the distance equals rate times time equation.I was awarded a grant for my design bid and developed it over the summer of 2013. It is written in Objective-C and most graphics were created with <a href="https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme?hl=en-US">Google Drawings</a>. Cats were created by artist <a href="http://www.britaness.com/">Brita Ness</a> in Adobe Illustrator. </p>'
+  },
 ];

@@ -19,22 +19,6 @@ p {
 	line-height: 150%;
 }
 
-.catflightleft img {
-	max-width:90%;
-	max-height:90%;
-	display: block;
-	margin-left: auto;
-	margin-right: 0%;
-}
-
-.catflightright img {
-	max-width:90%;
-	max-height:90%;
-	display: block;
-	margin-left: 0%;
-	margin-right: auto;
-}
-
 #tag-filter {
   font-size: 200%;
   margin: 5%;
@@ -53,6 +37,15 @@ p {
 #tag-checklist img {
   display: inline;
   width: 10%;
+}
+
+.jumbotron a {
+  margin-left: 10%;
+}
+
+.jumbotron a img {
+  display: inline;
+  width: 5%;
 }
 
 /*select, ul { height: 2%; overflow: scroll; width: 30%; border: 1px solid #000; }*/
