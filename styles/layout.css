@@ -7,5 +7,24 @@
     font-size: 100%;
     margin: 0%;
   }
+}
+
+@media (max-width: 530px) {
+  #desc {
+    display: none;
+  }
+
+  #desc-r {
+    display: block;
+  }
+
+  .link {
+    margin: 0%;
+    font-size: 90%;
+  }
+
+  .jumbotron {
+    text-align: center;
+  }
 
 }

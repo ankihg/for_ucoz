@@ -13,8 +13,8 @@ var rawData = [
     url: 'http://www.zanreads.info/',
     imgSrc: 'http://ankihg.ucoz.com/zanreads/zanreads2.png',
     date:'2015-10-31',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    about: '<p>My client Zan requested a spooky website to display book reviews.</p> <br>&nbsp; &nbsp; &nbsp; &nbsp; Midnight moon illuminates literary alarm <br>&nbsp; &nbsp; &nbsp; &nbsp; Fiction is found in the forest <br> &nbsp; &nbsp; &nbsp; &nbsp; Ghosts grab ominous novels <br>&nbsp; &nbsp; &nbsp; &nbsp; Eerie reads for a cyberchill to the bone'
+    tags: ['HTML', 'CSS', 'JavaScript', 'website management'],
+    about: '<p>My client Zan requested a spooky website to display book reviews.</p> &nbsp; &nbsp; &nbsp; &nbsp; Midnight moon illuminates literary alarm <br>&nbsp; &nbsp; &nbsp; &nbsp; Fiction is found in the forest <br> &nbsp; &nbsp; &nbsp; &nbsp; Ghosts grab ominous novels <br>&nbsp; &nbsp; &nbsp; &nbsp; Eerie reads for a cyberchill to the bone'
   },
   {
     name: 'SEATTLE SKYLINE',
@@ -29,7 +29,7 @@ var rawData = [
     url: 'http://willamettecollegian.com/',
     imgSrc: 'http://ankihg.ucoz.com/wu_col/img1.png',
     date:'2015-3-15',
-    tags: ['HTML', 'CSS', 'WordPress'],
+    tags: ['HTML', 'CSS', 'website management'],
     about: ' <p> The past year, I served as webmaster for my university newspaper, the Willamette Collegian. My first task was subjecting the site to a well-deserved makeover. I ditched the clunky, slow-loading pdf of the print edition and opted for a homepage linking to individual articles.</p><p> I worked closely with staff members, particularly the editor-in-chief and social media manager. Together, we took the site to record views of over 45,000 in the 2014-2015 academic year.</p><p>The website is under new management though many of my innovations remain.</p>'
   },
   {
@@ -37,7 +37,7 @@ var rawData = [
     url: 'http://ankihg.ucoz.com/index/19_edo_iso_keyboard/0-81',
     imgSrc: 'http://ankihg.ucoz.com/19edo_iso/19edo_iso1.png',
     date:'2015-10-20',
-    tags: ['HTML', 'CSS', 'JavaScript', 'Sound'],
+    tags: ['HTML', 'CSS', 'JavaScript', 'sound'],
     about: ' <p>This is a Nineteen Tone Equal Temperament Isomorphic Keyboard. In <a href="https://en.wikipedia.org/wiki/19_equal_temperament" target="_blank">19-TET</a>, the octave is divided into nineteen steps of equal frequency ratio. An <a href="https://en.wikipedia.org/wiki/Isomorphic_keyboard" target="_blank">isomorphic keyboard</a> is a musical input device where intervals appear in uniform shapes throughout keys. <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioContext" target="_blank">AudioContext</a> is used to produce notes and key input is accepted by the isomorphic keyboard.</p>'
   },
   {
@@ -45,7 +45,7 @@ var rawData = [
     url: 'http://ankihg.ucoz.com/index/great_grammar_transformer/0-7',
     imgSrc: 'http://ankihg.ucoz.com/ggt/welcome1.png',
     date:'2015-5-10',
-    tags: ['Java', 'Language'],
+    tags: ['Java', 'language'],
     about: ' <p>I developed this project over six months for completion of my undergraduate degree in computer science. It is written in Java using Netbeans IDE and utilizes <a href="https://opennlp.apache.org/">Apache OpenNLP</a> for English language parsing. Web content is parsed from <a href="http://conjugator.reverso.net/conjugation-english.html">Reverso.net</a> and <a href="http://www.thesaurus.com/">Thesaurus.com</a> for verb conjugations and synonyms.</p>'
   },
   {
@@ -61,7 +61,7 @@ var rawData = [
     url: 'http://ankihg.ucoz.com/index/cat_flight/0-21',
     imgSrc: 'media/cat_flight/img1.png',
     date:'2013-8-25',
-    tags: ['Objective-C', 'iOS Development'],
+    tags: ['Objective-C', 'iOS development'],
     about: '<p>The <a href="http://www.algebraicthinking.org/">Center for Algebraic Thinking</a> requested an iOS app as a tool for learning the distance equals rate times time equation.I was awarded a grant for my design bid and developed it over the summer of 2013. It is written in Objective-C and most graphics were created with <a href="https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme?hl=en-US">Google Drawings</a>. Cats were created by artist <a href="http://www.britaness.com/">Brita Ness</a> in Adobe Illustrator. </p>'
   },
 ];

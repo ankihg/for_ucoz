@@ -51,7 +51,7 @@ p {
 /*select, ul { height: 2%; overflow: scroll; width: 30%; border: 1px solid #000; }*/
 
 .contain-checklist {
-  /*background-image:url("/media/tree3_c.png");*/
+  /*background-image:url("media/tree3_c.png");*/
   margin: auto;
   border:6px
   solid #ccc;
@@ -68,6 +68,10 @@ h3 {
 .contain-checklist img {
   display: inline;
   width: 3%;
+}
+
+#desc-r {
+  display: none;
 }
 
 #contain-education {
