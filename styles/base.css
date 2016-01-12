@@ -44,6 +44,11 @@ p {
   width: 10%;
 }
 
+.project {
+  border:3px solid #ccc;
+  padding: 6px;
+}
+
 .jumbotron a {
   margin-left: 3%;
 }
@@ -58,8 +63,7 @@ p {
 .contain-checklist {
   /*background-image:url("media/tree3_c.png");*/
   margin: auto;
-  border:6px
-  solid #ccc;
+  border:6px solid #ccc;
   width:95%;
   height: 180px;
   overflow-y: scroll;

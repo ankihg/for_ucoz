@@ -11,16 +11,14 @@
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
  <script id='project-template' type='text/x-handlebars-template'>
-   <div class="row" id="{{id}}">
+   <div class="row project" id="{{id}}">
    <div class="col-sm-6">
    <a href="{{url}}" target="_blank"><img src="{{imgSrc}}">
    </div>
-   <div class="col-sm-6">
+   <div class="col-sm-6 project-txt">
    <h2>{{name}}</h2></a>
+   <div>{{hashtags}}</div><br>
    {{{about}}}
-
-   <br>
-   <footer>{{hashtags}}</footer>
    </div>
    </div>
    &nbsp;

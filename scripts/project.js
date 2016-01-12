@@ -20,7 +20,7 @@ Project.prototype.toHTML = function() {
  this.id = this.name.split(' ')[0];
 
  this.hashtags = this.tags.map(function(tag) {
-   return '#'+tag+' ';
+   return ' #'+ tag.replace(/ /g, '_');
  });
 
 
