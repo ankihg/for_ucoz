@@ -29,10 +29,45 @@ Project.prototype.handleJQuery = function() {
   $project.addClass('populated');
 };
 
-rawData.forEach(function(elm) {
-  projects.push(new Project(elm));
-});
+Project.loadAll = function() {
+  rawData.forEach(function(elm) {
+    projects.push(new Project(elm));
+  });
 
-projects.forEach(function(p) {
-  p.make();
-});
+  projects.forEach(function(p) {
+    p.make();
+  });
+};
+
+Project.fetchAll = function() {
+  if (localStorage.rawData) {
+    Project.checkUpdate();
+
+    Project.loadAll(JSON.parse(localStorage.rawData)); //DID: What do we pass in here to the .loadAll function?
+    projectView.initIndexPage();
+  } else {
+    Project.update();
+    projectView.initIndexPage();
+  }
+};
+
+Project.update = function() {
+  $.getJSON('/data/projectData.json', function(data, message, xhr) {
+    Project.loadAll(data);
+    localStorage.rawData = JSON.stringify(data);
+    localStorage.etag = xhr.getResponseHeader('eTag');
+  });
+};
+
+Project.checkUpdate = function() {
+  $.ajax({
+  type: 'HEAD',
+  url: "/data/projecdtData.json",
+  complete: function(xhr) {
+    var etag = xhr.getResponseHeader('eTag');
+    if (localStorage.etag !== etag) {
+      Project.update();
+    }
+  }
+  });
+};
