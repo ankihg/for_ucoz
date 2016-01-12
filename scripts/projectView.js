@@ -72,9 +72,14 @@ projectView.displayAll = function() {
  });
 };
 
-$(document).ready(function() {
+projectView.initIndexPage = function() {
+  projectView.populateChecklist();
+  projectView.handleChecklist();
+};
+
+/*$(document).ready(function() {
   projectView.populateChecklist();
   projectView.handleChecklist();
   // projectView.populateFilter();
   // projectView.handleFilter();
-});
+});*/

@@ -31,8 +31,9 @@
  <div class="jumbotron">
 <div class="row">
 <div class="col-sm-6">
- <h1>Annika Hagelin</h1>
+ <h1 id='name'>Annika Hagelin</h1>
  <p id="desc">Seeking full-time employment in software development</p>
+  <p id="desc-m">Seeking employment in software development</p>
  <p id="desc-r">Software developer</p>
 
  <a class="link" href="http://ankihg.ucoz.com/" target="_blank"><img src="media/tree3_c.png"> Personal Website</a>
@@ -45,70 +46,7 @@
 <canvas id="myCanvas" width="200" height="100" onClick="loadTrees()"> <!style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.
 </canvas>
-<script>
-
-function loadTrees() {
-//canvas setup
-//var w = document.body.clientWidth;
-//var h = document.body.clientHeight;
-var w = getWidth();
-var h = getHeight();
-var canvas = document.getElementById("myCanvas");
-canvas.width = 2*w/5;
-canvas.height = h/4;
-
-//get canvas context
-var ctx = canvas.getContext("2d");
-
-//load tree.png
-var tree = new Image();
-tree.src = "media/tree3_c.png";
-tree.width = canvas.width/10;
-tree.height = canvas.height/10;
-
-tree.onload = function() {
-var nTrees = 8;
-for (i=0; i<8; i++) {
-var xPert = (canvas.width/nTrees)*(Math.random()-.5);
-var yPert = Math.random()*2;
-ctx.drawImage(tree, i*canvas.width/nTrees+xPert, yPert*canvas.height/10);
-}
-};
-
-}
-
-loadTrees();
-
-//http://stackoverflow.com/questions/1038727/how-to-get-browser-width-using-javascript-code
-function getWidth() {
- if (self.innerHeight) {
- return self.innerWidth;
- }
-
- if (document.documentElement && document.documentElement.clientHeight) {
- return document.documentElement.clientWidth;
- }
-
- if (document.body) {
- return document.body.clientWidth;
- }
-}
-
-function getHeight() {
- if (self.innerHeight) {
- return self.innerHeight;
- }
-
- if (document.documentElement && document.documentElement.clientHeight) {
- return document.documentElement.clientHeight;
- }
-
- if (document.body) {
- return document.body.clientHeight;
- }
-}
-
-</script>
+<script src="/scripts/treeCanvas.js"></script>
 </div>
 
 </div>
@@ -165,6 +103,9 @@ function getHeight() {
 <script src="scripts/projectData.js"></script>
 <script src="scripts/project.js"></script>
 <script src="scripts/projectView.js"></script>
+<script>
+  Project.fetchAll();
+</script>
 
 </body>
 </html>
