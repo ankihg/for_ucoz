@@ -19,6 +19,11 @@ p {
 	line-height: 150%;
 }
 
+#myCanvas {
+  width: 100%;
+  height: 100%;
+}
+
 #tag-filter {
   font-size: 200%;
   margin: 5%;
@@ -71,6 +76,10 @@ h3 {
 }
 
 #desc-r {
+  display: none;
+}
+
+#desc-m {
   display: none;
 }
 
