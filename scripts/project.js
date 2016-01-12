@@ -19,6 +19,11 @@ Project.prototype.toHTML = function() {
 
  this.id = this.name.split(' ')[0];
 
+ this.hashtags = this.tags.map(function(tag) {
+   return '#'+tag+' ';
+ });
+
+
   var html = template(this);
   return html;
 };
@@ -29,7 +34,7 @@ Project.prototype.handleJQuery = function() {
   $project.addClass('populated');
 };
 
-Project.loadAll = function() {
+Project.loadAll = function(rawData) {
   rawData.forEach(function(elm) {
     projects.push(new Project(elm));
   });
@@ -52,19 +57,20 @@ Project.fetchAll = function() {
 };
 
 Project.update = function() {
-  $.getJSON('/data/projectData.json', function(data, message, xhr) {
+ $.getJSON('/data/projectData.json', function(data, message, xhr) {
     Project.loadAll(data);
     localStorage.rawData = JSON.stringify(data);
     localStorage.etag = xhr.getResponseHeader('eTag');
   });
+
 };
 
 Project.checkUpdate = function() {
   $.ajax({
   type: 'HEAD',
-  url: "/data/projecdtData.json",
-  complete: function(xhr) {
-    var etag = xhr.getResponseHeader('eTag');
+  url: "/data/projectData.json",
+  complete: function(data) {
+    var etag = data.getResponseHeader('eTag');
     if (localStorage.etag !== etag) {
       Project.update();
     }

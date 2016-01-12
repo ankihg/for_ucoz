@@ -62,5 +62,5 @@
     "date":"2013-8-25",
     "tags": ["Objective-C", "iOS development"],
     "about": "<p>The <a href='http://www.algebraicthinking.org/'>Center for Algebraic Thinking</a> requested an iOS app as a tool for learning the distance equals rate times time equation.I was awarded a grant for my design bid and developed it over the summer of 2013. It is written in Objective-C and most graphics were created with <a href='https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme?hl=en-US'>Google Drawings</a>. Cats were created by artist <a href='http://www.britaness.com/'>Brita Ness</a> in Adobe Illustrator. </p>"
-  }
+  },
 ]
