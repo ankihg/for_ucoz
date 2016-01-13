@@ -69,6 +69,7 @@ p {
   height: 180px;
   overflow-y: scroll;
   overflow-x: hidden;
+  font-size: 90%;
 }
 
 h3 {

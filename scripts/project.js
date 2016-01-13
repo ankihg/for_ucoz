@@ -79,6 +79,14 @@ Project.checkUpdate = function() {
   });
 };
 
+Project.countProjPerTag = function(tag) {
+  return Project.all.filter(function(p) {
+    if (p.tags.indexOf(tag) >= 0) {
+      return true;
+    }
+  }).length;
+}
+
 
   module.Project = Project;
 })(window);

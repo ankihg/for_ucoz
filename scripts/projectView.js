@@ -5,7 +5,7 @@ projectView.populateChecklist = function() {
   $('.populated').each(function() {
      var val = $(this).data('tags');
      val.forEach(function(tag) {
-       optionTag = '<div class="col-sm-4"><li><label for="chk1"><input type="checkbox" name="chk1" value="'+tag+'" id="'+tag.split(' ')[0]+'"><img src="media/mtn.png"> '+tag+' <img src="media/tree3_c.png"></label></li></div>';
+       optionTag = '<div class="col-sm-4"><li><label for="chk1"><input type="checkbox" name="chk1" value="'+tag+'" id="'+tag.split(' ')[0]+'"><img src="media/mtn.png"> '+tag+ ' <small>('+ Project.countProjPerTag(tag) +')</small> <img src="media/tree3_c.png"></label></li></div>';
        if ($('#tag-checklist input[value="' + tag + '"]').length === 0) {
          $('#tag-checklist').append(optionTag);
        }
