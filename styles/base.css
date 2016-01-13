@@ -47,6 +47,7 @@ p {
 .project {
   border:3px solid #ccc;
   padding: 6px;
+  margin: 1%;
 }
 
 .jumbotron a {
