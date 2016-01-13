@@ -1,4 +1,5 @@
-var projects = [];
+(function(module) {
+Project.all = [];
 
 function Project(tmp) {
   this.name = tmp.name;
@@ -36,10 +37,10 @@ Project.prototype.handleJQuery = function() {
 
 Project.loadAll = function(rawData) {
   rawData.forEach(function(elm) {
-    projects.push(new Project(elm));
+    Project.all.push(new Project(elm));
   });
 
-  projects.forEach(function(p) {
+  Project.all.forEach(function(p) {
     p.make();
   });
 };
@@ -77,3 +78,7 @@ Project.checkUpdate = function() {
   }
   });
 };
+
+
+  module.Project = Project;
+})(window);

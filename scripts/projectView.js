@@ -1,3 +1,4 @@
+(function(module) {
 var projectView = {};
 
 projectView.populateChecklist = function() {
@@ -57,7 +58,7 @@ projectView.clearItems = function() {
 };
 
 projectView.displayTag = function(tag) {
-  projects.forEach(function(i){
+  Project.all.forEach(function(i){
     if ($('#projects .row[id="' + i.id + '"]').length === 0) {
      if (i.tags.indexOf(tag) >= 0) {
        i.make();
@@ -67,7 +68,7 @@ projectView.displayTag = function(tag) {
 };
 
 projectView.displayAll = function() {
-  projects.forEach(function(i){
+  Project.all.forEach(function(i){
       i.make();
  });
 };
@@ -83,3 +84,6 @@ projectView.initIndexPage = function() {
   // projectView.populateFilter();
   // projectView.handleFilter();
 });*/
+
+module.projectView = projectView;
+})(window);
