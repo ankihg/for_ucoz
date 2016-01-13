@@ -20,11 +20,11 @@ Education.prototype.toHTML = function() {
 };
 
 Education.loadAll = function(rawData) {
-  rawData.forEach(function(elm) {
+  rawData.map(function(elm) {
     Education.all.push(new Education(elm));
   });
 
-  Education.all.forEach(function(p) {
+  Education.all.map(function(p) {
     p.make();
   });
 };

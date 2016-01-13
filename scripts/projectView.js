@@ -4,7 +4,7 @@ var projectView = {};
 projectView.populateChecklist = function() {
   $('.populated').each(function() {
      var val = $(this).data('tags');
-     val.forEach(function(tag) {
+     val.map(function(tag) {
        optionTag = '<div class="col-sm-4"><li><label for="chk1"><input type="checkbox" name="chk1" value="'+tag+'" id="'+tag.split(' ')[0]+'"><img src="media/mtn.png"> '+tag+ ' <small>('+ Project.countProjPerTag(tag) +')</small> <img src="media/tree3_c.png"></label></li></div>';
        if ($('#tag-checklist input[value="' + tag + '"]').length === 0) {
          $('#tag-checklist').append(optionTag);
@@ -33,7 +33,7 @@ projectView.handleChecklist = function() {
 projectView.populateFilter = function() {
   $('.populated').each(function() {
      var val = $(this).data('tags');
-     val.forEach(function(tag) {
+     val.map(function(tag) {
        optionTag = '<option value="' + tag + '">' + tag + '</option>';
        if ($('#tag-filter option[value="' + tag + '"]').length === 0) {
          $('#tag-filter').append(optionTag);
@@ -58,7 +58,7 @@ projectView.clearItems = function() {
 };
 
 projectView.displayTag = function(tag) {
-  Project.all.forEach(function(i){
+  Project.all.map(function(i){
     if ($('#projects .row[id="' + i.id + '"]').length === 0) {
      if (i.tags.indexOf(tag) >= 0) {
        i.make();
@@ -68,7 +68,7 @@ projectView.displayTag = function(tag) {
 };
 
 projectView.displayAll = function() {
-  Project.all.forEach(function(i){
+  Project.all.map(function(i){
       i.make();
  });
 };

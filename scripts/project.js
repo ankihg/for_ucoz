@@ -36,11 +36,11 @@ Project.prototype.handleJQuery = function() {
 };
 
 Project.loadAll = function(rawData) {
-  rawData.forEach(function(elm) {
+  rawData.map(function(elm) {
     Project.all.push(new Project(elm));
   });
 
-  Project.all.forEach(function(p) {
+  Project.all.map(function(p) {
     p.make();
   });
 };
