@@ -1,3 +1,5 @@
+(function(module) {
+
 function loadTrees() {
 //canvas setup
 //var w = document.body.clientWidth;
@@ -62,3 +64,6 @@ function getHeight() {
  return document.body.clientHeight;
  }
 }
+
+module.loadTrees = loadTrees;
+})(window);
