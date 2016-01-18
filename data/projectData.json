@@ -62,5 +62,21 @@
     "date":"2013-8-25",
     "tags": ["Objective-C", "iOS development"],
     "about": "<p>The <a href='http://www.algebraicthinking.org/'>Center for Algebraic Thinking</a> requested an iOS app as a tool for learning the distance equals rate times time equation.I was awarded a grant for my design bid and developed it over the summer of 2013. It is written in Objective-C and most graphics were created with <a href='https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme?hl=en-US'>Google Drawings</a>. Cats were created by artist <a href='http://www.britaness.com/'>Brita Ness</a> in Adobe Illustrator. </p>"
+  },
+  {
+    "name": "BUSINESS CARD",
+    "url": "http://ankihg.ucoz.com/professional/index.html",
+    "imgSrc": "http://ankihg.ucoz.com/business-card/bc1.png",
+    "date":"2016-1-10",
+    "tags": ["HTML", "CSS", "JavaScript", "jQuery", "JSON", "Ajax"],
+    "about": "Check out my online business card. I developed it as part of Code 301 at Code Fellows to explore new tools such as jQuery, JSON, and Ajax."
+  },
+  {
+    "name": "MY PERSONAL WEBSITE",
+    "url": "http://ankihg.ucoz.com",
+    "imgSrc": "http://ankihg.ucoz.com/ucoz/ucoz1.png",
+    "date":"2016-1-10",
+    "tags": ["HTML", "CSS", "JavaScript", "website management"],
+    "about": "Check out my personal website."
   }
 ]
