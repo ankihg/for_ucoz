@@ -138,9 +138,16 @@ footer {
   border:6px solid #ccc;
   float:right;
   display: inline;
-  margin: 1%;
+  margin: 2%;
   padding: 1%;
 }
 #farewell a {
   color: black;
+}
+
+.inlImg {
+  margin-top: 2%;
+  display: inline;
+  width: 5%;
+  height: 5%;
 }

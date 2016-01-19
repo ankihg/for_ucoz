@@ -36,7 +36,9 @@ projectView.handleChecklist = function() {
 };
 
 projectView.populateFilter = function() {
+  console.log('populate filters');
   $('.populated').each(function() {
+    console.log('populating filters');
      var val = $(this).data('tags');
      val.map(function(tag) {
        optionTag = '<option value="' + tag + '">' + tag + '</option>';

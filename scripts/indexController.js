@@ -4,7 +4,7 @@
 
 
   indexController.index = function() {
-        Project.fetchAll();
+        Project.fetchAll(projectView.initIndexPage);
         $('#contain-education').show();
         $('#contain-technical-skills').show();
 
