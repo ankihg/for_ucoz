@@ -122,3 +122,16 @@ footer {
   display: inline;
   width: 10%;
 }
+
+#about {
+  border:6px solid #ccc;
+  padding: 2%;
+}
+#about h1 {
+  text-align: center;
+}
+#about img {
+  display: inline;
+  width: 8%;
+  height: 8%;
+}

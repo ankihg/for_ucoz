@@ -67,15 +67,6 @@ Your browser does not support the HTML5 canvas tag.
 <div class='row'>
 <div id='contain-education' class="col-sm-4">
   <h3><img src="media/tree3_c.png"> education <img src="media/tree3_c.png"></h3>
-  <!-- <strong><a href="https://www.codefellows.org/courses/code-301/intermediate-software-development" target="_blank">code 301: intermediate software development</a></strong> <br>
-  code fellows, seattle, wa <br>
-  january 2016 <br>
-
-  <br>
-  <strong><a href="http://www.willamette.edu/cla/cs/" target="_blank">bachelor's degree in computer science</a></strong> <br>
-  willamette university, salem, or <br>
-  2011 - 2015 -->
-
 </div>
 
 <div id='contain-technical-skills' class="col-sm-7">
@@ -103,17 +94,25 @@ Your browser does not support the HTML5 canvas tag.
 
 <div id='projects'></div>
 
+
+<section class='row' id="about">
+  <h1><img src="media/tree3_c.png"><img src="media/tree3_c.png"><img src="media/tree3_c.png"><img src="media/tree3_c.png"> &nbsp; ABOUT ME &nbsp; <img src="media/mtn.png"><img src="media/mtn.png"><img src="media/mtn.png"><img src="media/mtn.png"></h1>
+  <br>
+  <p>welcome. my name is annika. i come from the san francisco east bay and now i live in seattle. i like to program, study language, and play music. please enjoy my website.  </p>
+</section>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
 <script src="vendor/page.js"></script>
 
-<script src="scripts/projectData.js"></script>
+<script src="scripts/indexController.js"></script>
 <script src="scripts/project.js"></script>
 <script src="scripts/projectView.js"></script>
+<script src="scripts/projectController.js"></script>
 <script src="scripts/education.js"></script>
+<script src="scripts/routes.js"></script>
 <script>
   Education.fetchAll();
-  Project.fetchAll();
 </script>
 
 </body>
