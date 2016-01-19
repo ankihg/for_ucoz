@@ -37,6 +37,9 @@ Project.prototype.handleJQuery = function() {
 
 Project.loadAll = function(rawData) {
   Project.all = [];
+  $('#projects').empty();
+  $('#tag-checklist :checked').removeAttr('checked');
+
 
   rawData.map(function(elm) {
     Project.all.push(new Project(elm));

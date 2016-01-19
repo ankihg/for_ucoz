@@ -15,7 +15,9 @@ projectView.populateChecklist = function() {
 
 projectView.handleChecklist = function() {
   $('#tag-checklist').on('change', function() {
+
     $('#projects').show();
+
     projectView.clearItems();
 
     var $checkedTags = $(this).find(':checked');

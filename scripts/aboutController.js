@@ -4,7 +4,7 @@
   // DID: Define a function that hides all main section elements, and then reveals just the #about section:
   aboutController.index = function() {
     $('.contain-checklist').hide();
-    $('#articles').hide();
+    $('#projects').hide();
 
     $('#contain-education').show();
     $('#contain-technical-skills').show();
