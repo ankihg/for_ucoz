@@ -36,6 +36,8 @@ Project.prototype.handleJQuery = function() {
 };
 
 Project.loadAll = function(rawData) {
+  Project.all = [];
+
   rawData.map(function(elm) {
     Project.all.push(new Project(elm));
   });

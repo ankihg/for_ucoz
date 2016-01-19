@@ -101,7 +101,6 @@ footer {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 #contain-education img {
   display: inline;
   width: 10%;
@@ -117,7 +116,6 @@ footer {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 #contain-technical-skills img {
   display: inline;
   width: 10%;
@@ -134,4 +132,15 @@ footer {
   display: inline;
   width: 8%;
   height: 8%;
+}
+
+#farewell {
+  border:6px solid #ccc;
+  float:right;
+  display: inline;
+  margin: 1%;
+  padding: 1%;
+}
+#farewell a {
+  color: black;
 }

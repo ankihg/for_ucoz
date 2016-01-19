@@ -4,8 +4,14 @@
 
 
   indexController.index = function() {
-    console.log('indexController index')
-    Project.fetchAll();
+        Project.fetchAll();
+        $('#contain-education').show();
+        $('#contain-technical-skills').show();
+
+        $('.contain-checklist').show();
+        $('#projects').hide();
+
+        $('#about').show();
   };
 
   module.indexController = indexController;

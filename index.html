@@ -42,17 +42,22 @@
   <p id="desc-m">Seeking employment in software development</p>
  <p id="desc-r">Software developer</p>
 
- <a class="link" href="http://ankihg.ucoz.com/" target="_blank"><img src="media/tree3_c.png"> Personal Website</a>
- <a class="link" href="http://ankihg.ucoz.com/resume_online.pdf" target="_blank"><img src="media/mtn.png"> Resume</a>
+ <!-- <a class="link" href="http://ankihg.ucoz.com/" target="_blank"><img src="media/tree3_c.png"> Personal Website</a> -->
+ <!-- <a class="link" href="http://ankihg.ucoz.com/resume_online.pdf" target="_blank"><img src="media/mtn.png"> Resume</a> -->
+ <a class="link" href="/projects"><img src="media/tree3_c.png"> Projects</a>
+ <a class="link" href="/about"><img src="media/mtn.png"> About me</a>
  <a class="link" href="https://github.com/ankihg/" target="_blank"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"> GitHub</a>
  <a class="link" href="https://www.linkedin.com/in/annika-hagelin-a8b949ab" target="_blank"><img src="http://uxrepo.com/static/icon-sets/brandico/svg/linkedin-rect.svg"> LinkedIn</a>
 
 </div>
 <div class="col-sm-6">
+  <a href="/">
 <canvas id="myCanvas" width="200" height="100" onClick="loadTrees()"> <!style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.
 </canvas>
 <script src="/scripts/treeCanvas.js"></script>
+</a>
+
 </div>
 
 </div>
@@ -63,6 +68,8 @@ Your browser does not support the HTML5 canvas tag.
            <option value="">-- Filter by tag --</option>
          </select>
    </div> -->
+
+<main>
 
 <div class='row'>
 <div id='contain-education' class="col-sm-4">
@@ -84,7 +91,7 @@ Your browser does not support the HTML5 canvas tag.
 </div>
 
 <div class='contain-checklist'>
-   <h3><img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png"><img src="media/tree3_c.png">&nbsp; filter by skills <img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png">&nbsp;&nbsp;<img src="media/mtn.png"> </h3>
+   <h3><img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png"><img src="media/tree3_c.png">&nbsp; select projects by skills <img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png">&nbsp;&nbsp;<img src="media/mtn.png"> </h3>
    <ul id='tag-checklist'>
      <!-- <div class="col-sm-6"><li><label for="chk1"><input type="checkbox" name="chk1" value="all" id="all"> All</label></li></div> -->
    </ul>
@@ -101,16 +108,28 @@ Your browser does not support the HTML5 canvas tag.
   <p>welcome. my name is annika. i come from the san francisco east bay and now i live in seattle. i like to program, study language, and play music. please enjoy my website.  </p>
 </section>
 
+<span id='farewell'>
+<a href='http://ankihg.ucoz.com'>Thank you for visiting</a>
+</span>
+
+</main>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
 <script src="vendor/page.js"></script>
 
 <script src="scripts/indexController.js"></script>
+
 <script src="scripts/project.js"></script>
 <script src="scripts/projectView.js"></script>
 <script src="scripts/projectController.js"></script>
+
 <script src="scripts/education.js"></script>
+
+<script src="scripts/aboutController.js"></script>
+
 <script src="scripts/routes.js"></script>
+
 <script>
   Education.fetchAll();
 </script>

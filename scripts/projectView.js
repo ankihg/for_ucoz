@@ -15,12 +15,17 @@ projectView.populateChecklist = function() {
 
 projectView.handleChecklist = function() {
   $('#tag-checklist').on('change', function() {
+    $('#projects').show();
     projectView.clearItems();
 
     var $checkedTags = $(this).find(':checked');
 
     if ($checkedTags.length < 1) {
       projectView.displayAll();
+
+      if (window.location.pathname !== '/projects') {
+        $('#projects').hide();
+      }
     } else {
       $checkedTags.each(function(t) {
           projectView.displayTag($checkedTags.eq(t).val());
