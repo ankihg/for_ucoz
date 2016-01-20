@@ -15,12 +15,19 @@ projectView.populateChecklist = function() {
 
 projectView.handleChecklist = function() {
   $('#tag-checklist').on('change', function() {
+
+    $('#projects').show();
+
     projectView.clearItems();
 
     var $checkedTags = $(this).find(':checked');
 
     if ($checkedTags.length < 1) {
       projectView.displayAll();
+
+      if (window.location.pathname !== '/projects') {
+        $('#projects').hide();
+      }
     } else {
       $checkedTags.each(function(t) {
           projectView.displayTag($checkedTags.eq(t).val());
@@ -31,7 +38,9 @@ projectView.handleChecklist = function() {
 };
 
 projectView.populateFilter = function() {
+  console.log('populate filters');
   $('.populated').each(function() {
+    console.log('populating filters');
      var val = $(this).data('tags');
      val.map(function(tag) {
        optionTag = '<option value="' + tag + '">' + tag + '</option>';
