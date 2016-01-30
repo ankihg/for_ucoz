@@ -18,7 +18,8 @@ Project.prototype.make = function() {
 Project.prototype.toHTML = function() {
   var template = Handlebars.compile($('#project-template').text());
 
- this.id = this.name.split(' ')[0];
+ // this.id = this.name.split(' ')[0];
+ this.id = this.name.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"").replace(/ /g, '-' ).toLowerCase();
 
  this.hashtags = this.tags.map(function(tag) {
    return ' #'+ tag.replace(/ /g, '_');
