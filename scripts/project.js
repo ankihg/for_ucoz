@@ -66,7 +66,7 @@ Project.update = function(callNext) {
     Project.loadAll(data);
     localStorage.rawData = JSON.stringify(data);
     localStorage.etag = xhr.getResponseHeader('eTag');
-    callNext();
+    if (callNext) { callNext(); }
   });
 
 };

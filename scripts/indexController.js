@@ -3,7 +3,7 @@
 
 
 
-  indexController.index = function() {
+  indexController.index = function(ctx, next) {
         Project.fetchAll(projectView.initIndexPage);
         $('#contain-education').show();
         $('#contain-technical-skills').show();

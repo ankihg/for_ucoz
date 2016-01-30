@@ -1,11 +1,11 @@
 [
   {
-    "name": "PORTLAND BRIDGES",
-    "url": "http://ankihg.ucoz.com/index/portland_bridges/0-92",
-    "imgSrc": "http://ankihg.ucoz.com/pdx_br/portland_bridges.png",
-    "date":"2015-12-10",
-    "tags": ["HTML", "CSS", "JavaScript", "Google Maps API"],
-    "about": "<h4>Like an interstate, </h4><p> &nbsp &nbsp the Willamette River tears the metropolis.</p><h4 style='text-align:center'> Cross me to connect.</h4><h3>Explore bridges and other crossings </h3><h4 style='text-align:right'> in the U.S. state of Oregon.</h4>"
+    "name": "SEATTLE PARK FINDER",
+    "url": "http://seattle-park-finder.herokuapp.com/",
+    "imgSrc": "/media/seattle_park_finder/seattle-park-finder.png",
+    "date":"2016-1-29",
+    "tags": [ "JavaScript", "jQuery", "Google Maps API", "JSON", "Ajax", "single page app", "responsive design", "website management", "HTML", "CSS", "Git", "Heroku"],
+    "about": "I developed Seattle Park Finder with three team members as a final project for Code Fellows' Code 301. The project was inspired by our love of parks and a desire for a stronger online resource to explore them."
   },
   {
     "name": "ZANREADS . INFO",
@@ -16,12 +16,36 @@
     "about": "<p>My client Zan requested a spooky website to display book reviews.</p> &nbsp; &nbsp; &nbsp; &nbsp; Midnight moon illuminates literary alarm <br>&nbsp; &nbsp; &nbsp; &nbsp; Fiction is found in the forest <br> &nbsp; &nbsp; &nbsp; &nbsp; Ghosts grab ominous novels <br>&nbsp; &nbsp; &nbsp; &nbsp; Eerie reads for a cyberchill to the bone<br>"
   },
   {
+    "name": "PORTLAND BRIDGES",
+    "url": "http://ankihg.ucoz.com/index/portland_bridges/0-92",
+    "imgSrc": "http://ankihg.ucoz.com/pdx_br/portland_bridges.png",
+    "date":"2015-12-10",
+    "tags": ["HTML", "CSS", "JavaScript", "Google Maps API"],
+    "about": "<h4>Like an interstate, </h4><p> &nbsp &nbsp the Willamette River tears the metropolis.</p><h4 style='text-align:center'> Cross me to connect.</h4><h3>Explore bridges and other crossings </h3><h4 style='text-align:right'> in the U.S. state of Oregon.</h4>"
+  },
+  {
+      "name": "MY PERSONAL WEBSITE",
+      "url": "http://ankihg.ucoz.com",
+      "imgSrc": "http://ankihg.ucoz.com/ucoz/ucoz1.png",
+      "date":"2015-9-20",
+      "tags": ["JavaScript", "website management", "HTML", "CSS"],
+      "about": "Check out my personal website."
+  },
+  {
     "name": "SEATTLE SKYLINE",
     "url": "http://ankihg.ucoz.com/index/seattle_skyline/0-78",
     "imgSrc": "http://ankihg.ucoz.com/seattle_skyline/screenshots/seattle_skyline1.png",
     "date":"2015-10-05",
     "tags": ["HTML", "CSS", "JavaScript", "Google Maps API"],
     "about": "<p>An interactive map to explore the skyline of Seattle, this served as my platform to gain proficiency with Google Maps Javascript API. It is written in JavaScript and uses several Google Maps features including custom markers, events, and animations. Familiarize yourself or assess your intimacy with the edifices.</p>"
+  },
+  {
+    "name": "BUSINESS CARD",
+    "url": "http://ankihg.ucoz.com/professional/index.html",
+    "imgSrc": "http://ankihg.ucoz.com/business-card/bc1.png",
+    "date":"2016-1-10",
+    "tags": ["JavaScript", "jQuery", "JSON", "Ajax", "single page app", "responsive design", "HTML", "CSS", "Git", "Heroku"],
+    "about": "Check out my online business card. I developed it as part of Code 301 at Code Fellows to explore new tools such as jQuery, JSON, and Ajax."
   },
   {
     "name": "WILLAMETTECOLLEGIAN . COM",
@@ -62,29 +86,5 @@
     "date":"2013-8-25",
     "tags": ["Objective-C", "iOS development"],
     "about": "<p>The <a href='http://www.algebraicthinking.org/'>Center for Algebraic Thinking</a> requested an iOS app as a tool for learning the distance equals rate times time equation.I was awarded a grant for my design bid and developed it over the summer of 2013. It is written in Objective-C and most graphics were created with <a href='https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme?hl=en-US'>Google Drawings</a>. Cats were created by artist <a href='http://www.britaness.com/'>Brita Ness</a> in Adobe Illustrator. </p>"
-  },
-  {
-    "name": "BUSINESS CARD",
-    "url": "http://ankihg.ucoz.com/professional/index.html",
-    "imgSrc": "http://ankihg.ucoz.com/business-card/bc1.png",
-    "date":"2016-1-10",
-    "tags": ["JavaScript", "jQuery", "JSON", "Ajax", "single page app", "responsive design", "HTML", "CSS", "Git", "Heroku"],
-    "about": "Check out my online business card. I developed it as part of Code 301 at Code Fellows to explore new tools such as jQuery, JSON, and Ajax."
-  },
-  {
-    "name": "MY PERSONAL WEBSITE",
-    "url": "http://ankihg.ucoz.com",
-    "imgSrc": "http://ankihg.ucoz.com/ucoz/ucoz1.png",
-    "date":"2015-9-20",
-    "tags": ["JavaScript", "website management", "HTML", "CSS"],
-    "about": "Check out my personal website."
-  },
-  {
-    "name": "SEATTLE PARK FINDER",
-    "url": "http://seattle-park-finder.herokuapp.com/",
-    "imgSrc": "/media/seattle_park_finder/seattle-park-finder.png",
-    "date":"2016-1-29",
-    "tags": [ "JavaScript", "jQuery", "Google Maps API", "JSON", "Ajax", "single page app", "responsive design", "website management", "HTML", "CSS", "Git", "Heroku"],
-    "about": "I developed Seattle Park Finder with three team members as a final project for Code Fellows' Code 301. The project was inspired by our love of parks and a desire for a stronger online resource to explore them."
   }
 ]

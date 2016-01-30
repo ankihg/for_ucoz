@@ -3,7 +3,7 @@
 
 
 
-  projectController.index = function() {
+  projectController.index = function(ctx, next) {
     console.log('projectController index')
     Project.fetchAll(projectView.initIndexPage);
 
