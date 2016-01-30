@@ -41,7 +41,7 @@
   },
   {
     "name": "BUSINESS CARD",
-    "url": "http://ankihg.ucoz.com/professional/index.html",
+    "url": "http://ankihg-professional.herokuapp.com/",
     "imgSrc": "http://ankihg.ucoz.com/business-card/bc1.png",
     "date":"2016-1-10",
     "tags": ["JavaScript", "jQuery", "JSON", "Ajax", "single page app", "responsive design", "HTML", "CSS", "Git", "Heroku"],
