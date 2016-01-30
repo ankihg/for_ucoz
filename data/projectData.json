@@ -68,15 +68,23 @@
     "url": "http://ankihg.ucoz.com/professional/index.html",
     "imgSrc": "http://ankihg.ucoz.com/business-card/bc1.png",
     "date":"2016-1-10",
-    "tags": ["HTML", "CSS", "JavaScript", "jQuery", "JSON", "Ajax"],
+    "tags": ["JavaScript", "jQuery", "JSON", "Ajax", "single page app", "responsive design", "HTML", "CSS", "Git", "Heroku"],
     "about": "Check out my online business card. I developed it as part of Code 301 at Code Fellows to explore new tools such as jQuery, JSON, and Ajax."
   },
   {
     "name": "MY PERSONAL WEBSITE",
     "url": "http://ankihg.ucoz.com",
     "imgSrc": "http://ankihg.ucoz.com/ucoz/ucoz1.png",
-    "date":"2016-1-10",
-    "tags": ["HTML", "CSS", "JavaScript", "website management"],
+    "date":"2015-9-20",
+    "tags": ["JavaScript", "website management", "HTML", "CSS"],
     "about": "Check out my personal website."
+  },
+  {
+    "name": "SEATTLE PARK FINDER",
+    "url": "http://seattle-park-finder.herokuapp.com/",
+    "imgSrc": "/media/seattle_park_finder/seattle-park-finder.png",
+    "date":"2016-1-29",
+    "tags": [ "JavaScript", "jQuery", "Google Maps API", "JSON", "Ajax", "single page app", "responsive design", "website management", "HTML", "CSS", "Git", "Heroku"],
+    "about": "I developed Seattle Park Finder with three team members as a final project for Code Fellows' Code 301. The project was inspired by our love of parks and a desire for a stronger online resource to explore them."
   }
 ]
