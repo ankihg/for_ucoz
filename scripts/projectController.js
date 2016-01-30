@@ -9,7 +9,7 @@
 
     $('#contain-education').hide();
     $('#contain-technical-skills').hide();
-    $('#about').hide();
+    // $('#about').hide();
 
     $('.contain-checklist').show();
     $('#projects').show();
