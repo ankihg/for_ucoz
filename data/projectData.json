@@ -33,7 +33,7 @@
   },
   {
     "name": "SEATTLE SKYLINE",
-    "url": "http://ankihg.ucoz.com/index/seattle_skyline/0-78",
+    "url": "https://seattle-skyline.herokuapp.com/",
     "imgSrc": "http://ankihg.ucoz.com/seattle_skyline/screenshots/seattle_skyline1.png",
     "date":"2015-10-05",
     "tags": ["HTML", "CSS", "JavaScript", "Google Maps API"],
