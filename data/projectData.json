@@ -4,7 +4,7 @@
     "url": "http://seattle-park-finder.herokuapp.com/",
     "imgSrc": "/media/seattle_park_finder/seattle-park-finder.png",
     "date":"2016-1-29",
-    "tags": [ "JavaScript", "jQuery", "Google Maps API", "JSON", "Ajax", "single page app", "responsive design", "website management", "HTML", "CSS", "Git", "Heroku"],
+    "tags": [ "JavaScript", "jQuery", "Google Maps API", "JSON", "Ajax", "single page app", "client side routing", "responsive design", "website management", "HTML", "CSS", "Git", "Heroku"],
     "about": "I developed Seattle Park Finder with three team members as a final project for Code Fellows' Code 301. The project was inspired by our love of parks and a desire for a stronger online resource to explore them."
   },
   {
@@ -12,7 +12,7 @@
     "url": "http://www.zanreads.info/",
     "imgSrc": "http://ankihg.ucoz.com/zanreads/zanreads2.png",
     "date":"2015-10-31",
-    "tags": ["HTML", "CSS", "JavaScript", "website management"],
+    "tags": ["JavaScript", "jQuery", "Ajax", "JSON", "single page app", "client side routing", "HTML", "CSS", "website management", "Git", "Heroku"],
     "about": "<p>My client Zan requested a spooky website to display book reviews.</p> &nbsp; &nbsp; &nbsp; &nbsp; Midnight moon illuminates literary alarm <br>&nbsp; &nbsp; &nbsp; &nbsp; Fiction is found in the forest <br> &nbsp; &nbsp; &nbsp; &nbsp; Ghosts grab ominous novels <br>&nbsp; &nbsp; &nbsp; &nbsp; Eerie reads for a cyberchill to the bone<br>"
   },
   {
@@ -36,7 +36,7 @@
     "url": "https://seattle-skyline.herokuapp.com/",
     "imgSrc": "http://ankihg.ucoz.com/seattle_skyline/screenshots/seattle_skyline1.png",
     "date":"2015-10-05",
-    "tags": ["HTML", "CSS", "JavaScript", "Google Maps API"],
+    "tags": ["JavaScript", "jQuery", "Ajax", "JSON", "single page app", "HTML", "CSS", "Google Maps API", "Git", "Heroku"],
     "about": "<p>An interactive map to explore the skyline of Seattle, this served as my platform to gain proficiency with Google Maps Javascript API. It is written in JavaScript and uses several Google Maps features including custom markers, events, and animations. Familiarize yourself or assess your intimacy with the edifices.</p>"
   },
   {
@@ -44,7 +44,7 @@
     "url": "http://ankihg-professional.herokuapp.com/",
     "imgSrc": "http://ankihg.ucoz.com/business-card/bc1.png",
     "date":"2016-1-10",
-    "tags": ["JavaScript", "jQuery", "JSON", "Ajax", "single page app", "responsive design", "HTML", "CSS", "Git", "Heroku"],
+    "tags": ["JavaScript", "jQuery", "JSON", "Ajax", "single page app", "client side routing", "responsive design", "HTML", "CSS", "Git", "Heroku"],
     "about": "Check out my online business card. I developed it as part of Code 301 at Code Fellows to explore new tools and concepts such as jQuery, Ajax, single-page applications, and responsive web desgin."
   },
   {
