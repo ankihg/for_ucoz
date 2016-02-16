@@ -92,7 +92,7 @@ Your browser does not support the HTML5 canvas tag.
 </div>
 
 <div class='contain-checklist'>
-   <h3><img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png"><img src="media/tree3_c.png">&nbsp; select projects by skills <img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png">&nbsp;&nbsp;<img src="media/mtn.png"> </h3>
+   <h3><img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png"><img src="media/tree3_c.png">&nbsp; display projects by skills <img src="media/tree3_c.png">&nbsp;&nbsp;&nbsp;<img src="media/mtn.png">&nbsp;&nbsp;<img src="media/mtn.png"> </h3>
    <ul id='tag-checklist'>
      <!-- <div class="col-sm-6"><li><label for="chk1"><input type="checkbox" name="chk1" value="all" id="all"> All</label></li></div> -->
    </ul>
@@ -136,6 +136,7 @@ Your browser does not support the HTML5 canvas tag.
 
 <script>
   Education.fetchAll();
+  Project.fetchAll(projectView.initIndexPage);
 </script>
 
 </body>
