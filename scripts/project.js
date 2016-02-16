@@ -80,7 +80,10 @@ Project.checkUpdate = function(callNext) {
   complete: function(data) {
     var etag = data.getResponseHeader('eTag');
     if (localStorage.etag !== etag) {
-      Project.update(Project.loadAll(JSON.parse(localStorage.rawData)), callNext);
+      Project.update(function() {
+        Project.loadAll(JSON.parse(localStorage.rawData));
+        callNext();
+      });
     } else {
       Project.loadAll(JSON.parse(localStorage.rawData));
       if (callNext) { callNext(); }
